@@ -69,3 +69,13 @@ html,body{
 .center-content{
     margin: auto;
 }
+.what-we-do{
+    text-align: center;
+}
+
+/***
+    Portfolio s
+***/
+.col-md-3 > img{
+    width: 100%;
+}
