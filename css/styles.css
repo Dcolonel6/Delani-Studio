@@ -74,8 +74,18 @@ html,body{
 }
 
 /***
-    Portfolio s
+    Portfolio section
 ***/
 .col-md-3 > img{
     width: 100%;
+}
+
+/***
+    Contact us Section
+***/
+.contact-us-section{
+    background-image: url(../images/assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: contain;
 }
