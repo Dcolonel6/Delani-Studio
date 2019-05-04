@@ -52,3 +52,20 @@ html,body{
 /***
     about us section
 ***/
+
+
+/***
+    services-section
+***/
+.services-section{
+    background-image: url(../images/assets/backgrounds/s_image.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; 
+    display: flex;
+}
+.center-content{
+    margin: auto;
+}
