@@ -3,13 +3,11 @@ html,body{
     height: 100%;
 }
 
+
 /***
     welcome section
 ***/
-/* .flex-box{
-    display: flex;
-    justify-content: column;
-} */
+
 .welcome-section{
     position: relative;
 }
@@ -79,6 +77,10 @@ html,body{
 .col-md-3 > img{
     width: 100%;
 }
+.col-md-3 > img:hover{
+    width: 100%;
+    opacity: .1;
+}
 
 /***
     Contact us Section
@@ -86,6 +88,27 @@ html,body{
 .contact-us-section{
     background-image: url(../images/assets/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
-    
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 80px;
+        
+}
+
+.form-control::placeholder{
+    color: white;
+    opacity: 1;
+}
+/***
+    Footer social media icons
+***/
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+}
+
+/***
+    utilities classes
+***/
+.title{
+    text-transform: uppercase;
 }
