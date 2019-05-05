@@ -69,6 +69,12 @@ html,body{
 .center-content{
     margin: auto;
 }
+.services-section > p{
+    line-height: 1.2;
+}
+/***
+    what-we-do-section
+***/
 .what-we-do{
     text-align: center;
 }
@@ -76,12 +82,35 @@ html,body{
 /***
     Portfolio section
 ***/
+
 .col-md-3 > img{
     width: 100%;
 }
-.col-md-3 > img:hover{
-    width: 100%;
+/* .col-md-3:hover{    
     opacity: .1;
+} */
+.overlay{
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #F2F2F2;
+}
+.overlay-left{
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    
+}
+.overlay > .text{
+    position: absolute;
+    font-size: 25px;
+    color: #143204;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translate(-50%,-50%);
+
 }
 
 /***
