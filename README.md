@@ -3,7 +3,7 @@
 Dennis Njogu
 ## Description
 This is a website for delani studio. It contains information on what Delani Studio is, projects done and how to contact.
-##Features
+## Features
 1. There is an image overlay in the portfolio section
 2. You can toggle between text and icons in the `what we do` section of the site.
 3. When you submit a filled out form you get a pop up notification.
