@@ -15,10 +15,9 @@ function handleHoverOut(evnt){
         "opacity": 0,
         "width": 0
     });
-}
+};
 function handleClick(evnt){
     $(this).children("img").toggle();
     $(this).children("div.more-details").toggle()
-    
-
-}
+  
+};
