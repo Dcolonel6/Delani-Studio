@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".hover-effect").hover(handleHoverIn,handleHoverOut);
     $(".what-we-do").click(handleClick);
     $("form").keypress(keypressHandler);
-    
+    $("form").submit(submitHandler);
 });
 
 function handleHoverIn(evnt){
@@ -28,3 +28,9 @@ function keypressHandler(evt){
         $(this).submit();
     }
 }
+function submitHandler(evt){
+    evt.preventDefault();
+    var name = $("input[type=text]").val(),
+        email= $("input[type=email]").val();
+    alert(`${name}. we have received your message. Thank you for reaching out to us`);
+}; 
