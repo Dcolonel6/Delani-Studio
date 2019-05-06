@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $(".hover-effect").hover(handleHoverIn,handleHoverOut);
     $(".what-we-do").click(handleClick);
+    $("form").keypress(keypressHandler);
+    
 });
 
 function handleHoverIn(evnt){
@@ -21,3 +23,8 @@ function handleClick(evnt){
     $(this).children("div.more-details").toggle()
   
 };
+function keypressHandler(evt){
+    if(evt.which === 13){
+        $(this).submit();
+    }
+}
