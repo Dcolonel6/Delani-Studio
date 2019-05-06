@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
     $(".hover-effect").hover(handleHoverIn,handleHoverOut);
+    
 });
 
 function handleHoverIn(evnt){
